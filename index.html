@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Indexing -->
+    <title>Hireward | Elite Talent Acquisition & Rewards</title>
+    <meta name="description" content="Connect with elite opportunities and earn high-value rewards. Hireward is the premier platform for professional growth and talent matching.">
+    <meta name="keywords" content="Hireward, Talent Acquisition, Professional Rewards, Recruiting Platform, Career Growth">
+    <link rel="canonical" href="https://hireward.kro.kr/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hireward.kro.kr/">
+    <meta property="og:title" content="Hireward | Elite Talent Acquisition & Rewards">
+    <meta property="og:description" content="Unlock your professional potential. Discover top-tier roles and earn rewards for your expertise on Hireward.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&h=630&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hireward.kro.kr/">
+    <meta property="twitter:title" content="Hireward | Elite Talent Acquisition & Rewards">
+    <meta property="twitter:description" content="Unlock your professional potential. Discover top-tier roles and earn rewards.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&h=630&q=80">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=JetBrains+Mono&display=swap');
+
+        :root {
+            --primary-emerald: #10b981;
+            --primary-dark: #0f172a;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: var(--primary-dark);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #10b981 0%, #064e3b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hireward-card {
+            background: white;
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hireward-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
+        }
+
+        .glow-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px 0 rgba(16, 185, 129, 0.39);
+        }
+
+        .glow-button:hover {
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+            transform: scale(1.02);
+        }
+
+        .reward-pulse {
+            animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse-ring {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: .5; transform: scale(1.05); }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-emerald-200">
+                    H
+                </div>
+                <span class="text-2xl font-extrabold tracking-tight text-slate-900">HIRE<span class="text-emerald-500">WARD</span></span>
+            </div>
+            
+            <div class="hidden md:flex gap-8 items-center">
+                <a href="#" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Find Talent</a>
+                <a href="#" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Rewards Hub</a>
+                <a href="#" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Pricing</a>
+                <button class="ml-4 px-6 py-2.5 bg-slate-900 text-white rounded-full text-sm font-bold glow-button">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="flex-grow">
+        <section class="pt-24 pb-20 px-6 max-w-7xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold uppercase tracking-widest mb-8 border border-emerald-100">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                New High-Value Positions Open
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-extrabold text-slate-900 mb-8 tracking-tight leading-[1.1]">
+                Hire the Best. <br/>
+                <span class="gradient-text">Get Rewarded.</span>
+            </h1>
+            
+            <p class="max-w-2xl mx-auto text-slate-500 text-lg md:text-xl leading-relaxed mb-12">
+                The world's first talent ecosystem where performance is currency. We bridge the gap between elite professionals and visionary companies.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <button onclick="openPortal('talent')" class="w-full sm:w-auto px-10 py-5 bg-emerald-500 text-white rounded-2xl font-bold text-lg glow-button flex items-center justify-center gap-2">
+                    I am Talent <i class="fa-solid fa-arrow-right text-sm"></i>
+                </button>
+                <button onclick="openPortal('hiring')" class="w-full sm:w-auto px-10 py-5 bg-white border-2 border-slate-200 text-slate-900 rounded-2xl font-bold text-lg hover:border-emerald-500 hover:text-emerald-600 transition-all">
+                    I am Hiring
+                </button>
+            </div>
+
+            <!-- Social Proof -->
+            <div class="mt-20 flex flex-wrap justify-center gap-8 md:gap-16 opacity-40 grayscale filter">
+                <i class="fa-brands fa-google text-3xl"></i>
+                <i class="fa-brands fa-amazon text-3xl"></i>
+                <i class="fa-brands fa-microsoft text-3xl"></i>
+                <i class="fa-brands fa-spotify text-3xl"></i>
+                <i class="fa-brands fa-airbnb text-3xl"></i>
+            </div>
+        </section>
+
+        <!-- Feature Grid -->
+        <section class="bg-slate-50 py-24">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="hireward-card p-10 rounded-3xl">
+                        <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl mb-8">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Smart Matching</h3>
+                        <p class="text-slate-500 leading-relaxed">AI-driven algorithms that understand context beyond keywords to find your perfect professional fit.</p>
+                    </div>
+
+                    <div class="hireward-card p-10 rounded-3xl">
+                        <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-8">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Milestone Rewards</h3>
+                        <p class="text-slate-500 leading-relaxed">Earn points and exclusive perks for successful interviews, referrals, and long-term placements.</p>
+                    </div>
+
+                    <div class="hireward-card p-10 rounded-3xl">
+                        <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-8">
+                            <i class="fa-solid fa-shield-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Verified Profiles</h3>
+                        <p class="text-slate-500 leading-relaxed">Every expert on our platform undergoes a rigorous 5-step verification process to ensure quality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Portal -->
+    <div id="portal" class="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm hidden">
+        <div class="bg-white p-8 md:p-12 rounded-[2rem] max-w-lg w-full shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-4">
+                <button onclick="closePortal()" class="text-slate-400 hover:text-slate-900"><i class="fa-solid fa-xmark text-2xl"></i></button>
+            </div>
+            <div id="portal-icon" class="w-20 h-20 bg-emerald-100 text-emerald-500 rounded-3xl flex items-center justify-center text-4xl mb-6"></div>
+            <h2 id="portal-title" class="text-3xl font-extrabold text-slate-900 mb-4">Welcome back</h2>
+            <p id="portal-desc" class="text-slate-500 mb-8"></p>
+            <input type="email" placeholder="Professional Email" class="w-full px-6 py-4 bg-slate-50 border border-slate-200 rounded-xl mb-4 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 transition-all">
+            <button class="w-full py-4 bg-emerald-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-200 hover:bg-emerald-600 transition-all">Continue Access</button>
+            <p class="mt-6 text-center text-xs text-slate-400">By continuing, you agree to our Terms of Service.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white py-16 px-6 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center text-white font-bold">H</div>
+                <span class="font-bold text-slate-900 tracking-tight uppercase text-sm">Hireward Network</span>
+            </div>
+            <div class="flex gap-8 text-sm text-slate-500 font-medium">
+                <a href="#" class="hover:text-emerald-500 transition-colors">Privacy</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">Security</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">Contact</a>
+            </div>
+            <div class="text-xs text-slate-400 font-mono">
+                HIREWARD.KRO.KR &copy; <span id="year"></span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        function openPortal(type) {
+            const portal = document.getElementById('portal');
+            const title = document.getElementById('portal-title');
+            const desc = document.getElementById('portal-desc');
+            const icon = document.getElementById('portal-icon');
+
+            if(type === 'talent') {
+                title.innerText = "Find Your Next Reward";
+                desc.innerText = "Enter the inner circle. Gain access to unlisted high-value positions and automated reward tracking.";
+                icon.innerHTML = '<i class="fa-solid fa-user-tie"></i>';
+                icon.className = "w-20 h-20 bg-emerald-100 text-emerald-500 rounded-3xl flex items-center justify-center text-4xl mb-6";
+            } else {
+                title.innerText = "Hire the Future";
+                desc.innerText = "Deploy your recruitment campaigns and start browsing verified, reward-driven professional profiles today.";
+                icon.innerHTML = '<i class="fa-solid fa-building-user"></i>';
+                icon.className = "w-20 h-20 bg-blue-100 text-blue-500 rounded-3xl flex items-center justify-center text-4xl mb-6";
+            }
+            
+            portal.classList.remove('hidden');
+        }
+
+        function closePortal() {
+            document.getElementById('portal').classList.add('hidden');
+        }
+
+        // Close on esc
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closePortal();
+        });
+    </script>
+</body>
+</html>
